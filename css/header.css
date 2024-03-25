@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #292B30;
+    color: #FFFFFF;
+}
+.header{
+    background-color: #292B30;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(109, 109, 109);
+}
+.header__div--download{
+    display: flex;
+    background-color: rgb(245, 65, 65);
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.header__hover:hover{
+    
+}
+.download__img{
+    width: 20px;
+}
+.header__div--search{
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    width: 500px;
+    background-color: #30323A;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 220px;
+}
+.search__riotlogo{
+    width: 45px;
+    text-align: center;
+    border-right: 1px solid rgb(109, 109, 109);
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+.search__riotlogo--img{
+    border-bottom: 1px solid rgb(245, 65, 65);
+    width: 15px;
+}
+.search__input{
+    width: 500px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+.search__img{
+    width: 25px;
+    padding: 5px;
+}
+.header__div--register{
+    display: flex;
+    height: 35px; 
+    align-items: center;
+    justify-content: space-around; 
+    margin: 10px;
+}
+.register__support{
+    border-right: 1px solid rgb(109, 109, 109) ;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.register__support--img{
+    width: 20px;
+    margin: 15px;
+}
+.register__div{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.register__div--login{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register__div--register{
+    border-radius: 5px;
+    border: 1px solid #F34C61;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(243, 76, 98, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
