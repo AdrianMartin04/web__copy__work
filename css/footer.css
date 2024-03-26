@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    margin: 0 auto;
+}
+.footer__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer__about{
+    display: flex;
+    flex-direction: column;
+}
+.footer__games--div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__games--div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social--div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__content{
+    max-width: 360px;
+}
+.about__discord--img{
+    width: 130px;
+    margin-left: 10px;
+}
+.about__discord{
+    display: flex;
+    align-items: center;
+}
+.about__txt, .footer__resources--p, .footer__games--p, .footer__social--p, .about__discord--p{
+    font-size: 1.1rem;
+}
+.footer__games--p, .footer__social--p{
+    margin-left: 10px;
+}
+.footer__social--p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
