@@ -1,4 +1,4 @@
-.main{
+.header__main{
     position: relative;
 }
 .main__banner{
@@ -96,9 +96,8 @@
     font-size: 1.1rem;
     padding: 25px 0px 25px 0px;
 }
-.nav__li--overview{
+.nav__li--overview, .nav__li--maps, .nav__li--weapons{
     border-bottom: 3px solid white;
-
 }
 .nav__a{
     text-decoration: none;

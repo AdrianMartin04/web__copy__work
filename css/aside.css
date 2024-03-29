@@ -1,0 +1,92 @@
+.main{
+    margin: 0 auto;
+    width: 1400px;
+}
+.main__aside{
+    width: 300px;
+}
+.main__aside--rank{
+    margin-top: 15px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+.rank__over{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.rank__aside{
+    display: flex;
+}
+.rank__cap{
+    margin-right: 10px;
+}
+.rank__radiant{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.274);
+}
+.rank__radiant--div{
+    display: flex;
+}
+.radiant__img{
+    height: 70px;
+    margin-right: 10px;
+}
+.radiant__div{
+    margin: auto;
+}
+.radiant__p{
+    margin: 0;
+}
+.radiant__circle{
+    width: 70px;
+}
+.rank__txt{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.radiant__percentage{
+    position: absolute;
+    top: 100px;
+    left: 218px;
+}
+.radiant__percentage>.radiant__p{
+    font-size: 0.65rem;
+}
+.radiant__p--info{
+    font-size: 0.65rem;
+    color: rgb(173, 173, 173);
+}
+.radiant__day{
+    display: flex;
+    justify-content: space-between;
+}
+.radiant__carrer{
+    background-color: rgba(34, 34, 34, 0.274);
+    border-radius: 5px;
+}
+.radiant__span{
+    background-color: rgba(255, 56, 56, 0.479);
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.p__span{
+    display: flex;
+    align-items: center;
+}
+.p__point{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: gold;
+}
+.p__board{
+    font-size: 0.6rem;
+}

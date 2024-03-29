@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: sticky;
-    top: 100vh;
+    top: 0;
     left: 0;
     color: transparent;
 }
