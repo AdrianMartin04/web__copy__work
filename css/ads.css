@@ -1,0 +1,46 @@
+
+.ads{
+    position: relative;
+}
+.ads__main{
+    position: sticky;
+    top: 100px;
+}
+.ads__big{
+    margin-top: 15px;
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+    background-color: #43454E;
+    border-radius: 5px;
+}
+.ads__small{
+    margin-top: 15px;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    background-color: #43454E;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.ads__big--div, .ads__small--div{
+    display: flex;
+    justify-content: space-between;
+}
+.ads__big--div>p, .ads__small--div>p{
+    margin: 0;
+}
+.orange{
+    color: orange;
+}
+.ads__img--big, .ads__img--small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads__img--big{
+    margin-top: 70%;
+}
+.ads__img--small{
+    margin-top: 15%;
+}

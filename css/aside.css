@@ -1,6 +1,6 @@
 .main{
     margin: 0 auto;
-    width: 1400px;
+    width: 1450px;
 }
 .main__aside{
     width: 300px;
@@ -71,6 +71,7 @@
 }
 .radiant__span{
     background-color: rgba(255, 56, 56, 0.479);
+    color: #f3654c;
     padding: 2px;
     border-radius: 5px;
     display: flex;
@@ -177,4 +178,7 @@
 }
 .body__red{
     color: #F34C61;
+}
+.accuracy__footer--img{
+   width: 270px;
 }
