@@ -1,0 +1,150 @@
+.main__main{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 1050px;
+    margin-top: 15px;
+}
+.main__header{
+    display: flex;
+    justify-content: space-between;
+}
+.main__header--txt{
+    display: flex;
+    align-items: center;
+}
+.main__header--r{
+    margin: 0;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.main__header--l{
+    margin: 0;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.main__header--compe, .red{
+    background-color: #F34C61;
+    padding: 5px;
+    border-radius: 5px;
+}
+.grey{
+    color: grey;
+}
+.grey__point{
+    color: grey;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35px;
+}
+
+.weapons{
+    margin-top: 15px;
+}
+.weapons__div{
+    display: flex;
+}
+.weapon__p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.weapons__best{
+    background-image: url(".././assets/images/weapon-top-bg.png");
+    border-radius: 15px;
+}
+.weapons__top{
+    padding: 5px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weapons__top--img{
+    margin-right: 40px;
+    width: 330px;
+}
+.vandal{
+    font-size: 2rem;
+}
+.weapons__top--p{
+    margin: 0;
+}
+.weapons__bottom{
+    display: flex;
+    justify-content: center;
+}
+.weapons__bottom--div{
+    text-align: center;
+    width: 90px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.weapons__bottom--p{
+    font-size: 0.6rem;
+}
+.weapons__bottom--value{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+table {
+   width :100%;
+   border-collapse: separate;
+   border-spacing: 0px 10px;
+}
+td {
+    width: 25%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 5px;
+    min-width: 80px;
+}
+th{
+    font-weight: 100;
+}
+tr{
+    text-align: center;
+    
+}
+tbody>tr{
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #3B3D44;
+}
+
+
+
+.table__img{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.td__weapon{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 220px;
+}
+.td__p--type{
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.td__p--weapon{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+td>span{
+    color: yellow;
+}

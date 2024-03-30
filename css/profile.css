@@ -1,0 +1,10 @@
+.banner__profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    position: absolute;
+    left: 400px;
+    top: 240px;
+    z-index: 5;
+}

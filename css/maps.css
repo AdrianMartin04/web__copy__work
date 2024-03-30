@@ -1,0 +1,139 @@
+.main__main{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 1050px;
+    margin-top: 15px;
+}
+.main__header{
+    display: flex;
+    justify-content: space-between;
+}
+.main__header--txt{
+    display: flex;
+    align-items: center;
+}
+.main__header--r{
+    margin: 0;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.main__header--l{
+    margin: 0;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.main__header--compe, .red{
+    background-color: #F34C61;
+    padding: 5px;
+    border-radius: 5px;
+}
+.grey{
+    color: grey;
+}
+.grey__point{
+    color: grey;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35px;
+}
+.maps{
+    margin-top: 25px
+}
+.maps__header{
+    display: flex;
+}
+.maps__header--p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.maps__map{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.ascent{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/ascent.png");
+}
+.lotus{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/lotus.png");
+}
+.sunset{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/sunset.png");
+}
+.split{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/split.png");
+}
+.bind{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/bind.png");
+}
+.breeze{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/breeze.png");
+}
+.icebox{
+    background-image:linear-gradient(90deg, rgb(59, 61, 68) 0%, rgba(59, 61, 68, 0) 19.51%, rgba(59, 61, 68, 0) 45.54%, rgba(59, 61, 68, 0) 58.04%, rgba(59, 61, 68, 0) 85.65%, rgb(59, 61, 68) 100%), linear-gradient(rgba(59, 61, 68, 0) 0%, rgb(59, 61, 68) 67.39%), url(".././assets/images/icebox.png");
+}
+
+.maps__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.maps__txt--top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.maps__txt--name{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+.maps__txt--p{
+    padding: 5px;
+    font-size: 0.6rem;
+    border-radius: 5px;
+    background-color: #75747462;
+}
+.maps__txt--match{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.maps__darrow--img{
+    height: 20px;
+    margin-right: 20px;
+}
+.maps__stats{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.maps__stats--div{
+    background-color: #555761;
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.maps__stats--p{
+    margin: 0;
+}
+.maps__stats--value{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.blue{
+    color: #00FBFF;
+}
+.red--p{
+    color: #F34C61;
+}
